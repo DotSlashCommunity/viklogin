@@ -1,0 +1,102 @@
+@import "./bulma/bulma";
+@import "./bulma/extensions/bulma-steps";
+
+.a-light-shadow,
+.a-video,
+.a-box {
+  box-shadow: $box-shadow;
+}
+
+.a-circle-image {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.a-stretched-image {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.a-video-theater {
+  width: 120%;
+  margin-left: -10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: black;
+  text-align: center;
+
+  .a-video {
+    width: 55%;
+    height: auto;
+  }
+}
+
+.a-box {
+  border-radius: $box-radius;
+  overflow: hidden;
+}
+
+.a-padded {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.a-padded.a-small {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.a-spaced {
+  padding-top: 30px;
+}
+
+.a-footer-padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.a-full-width {
+  width: 100%;
+}
+
+.a-full-height {
+  height: 100%;
+}
+
+.a-content-top {
+  margin-top: $navbar-height;
+}
+
+.a-small-text {
+  font-size: small;
+}
+
+.a-large-text {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.a-dark {
+  background-color: hsl(0, 0%, 10%);
+}
+
+.a-footer-text {
+  color: hsl(0, 0, 30%);
+}
+
+.a-light-text {
+  color: hsl(0, 0, 58%);
+}
+
+.a-no-radius {
+  border-radius: 0px;
+}
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
